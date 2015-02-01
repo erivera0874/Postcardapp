@@ -49,7 +49,7 @@ class ViewController: UIViewController {
                                                     //name text box to the new label
         enterNameTextField.text = ""                //erases the name after the send mail has been pressed
         enterNameTextField.resignFirstResponder()   //remvoes keyboard after text for namebox text field
-        
+        nameLabel.hidden = false
     
     }
     
